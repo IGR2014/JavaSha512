@@ -1,0 +1,24 @@
+// Плагіни
+plugins {
+	id 'application'
+	id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+// Репозиторії для пошуку пакетів
+repositories {
+	mavenCentral() 
+}
+
+// Параметри додатку
+application {
+	// TODO
+}
+
+// Параметри JavaFX GUI
+javafx {
+	version = '17.0.9'
+	modules = ['javafx.controls']
+}
+
+// Головний клас додатку
+mainClassName = 'org.encrypt.sha512.Main'
